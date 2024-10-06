@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://kit.fontawesome.com/df8d6121fb.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="./style.css">
+	<title>Modern Calender</title>
+</head>
+
+<body>
+	<div class="container">
+		<div class="left">
+			<div class="calendar">
+				<div class="month">
+					<i class="fa fa-angle-left prev"></i>
+					<div class="date"></div>
+					<i class="fa fa-angle-right next"></i>
+				</div>
+				<!-- / weekdays -->
+				<div class="weekdays">
+					<div>Sun</div>
+					<div>Mon</div>
+					<div>Tue</div>
+					<div>Wed</div>
+					<div>Thu</div>
+					<div>Fri</div>
+					<div>Sat</div>
+				</div>
+				<!-- / days  -->
+				<div class="days">
+					<!-- day will be add dynamically -->
+				</div>
+				<div class="goto-today">
+					<div class="goto">
+						<input type="text" placeholder="mm/yyyy" class="date-input">
+						<button class="goto-btn">go</button>
+					</div>
+					<button class="today-btn">Today</button>
+					<!-- / select year -->
+					<div class="year-dropdown">
+						<select id="year-list">
+							<!-- Year options will be added dynamically -->
+						</select>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+		<div class="right">
+			<div class="today-date">
+				<div class="event-day">Wed</div>
+				<div class="event-date">16 November 2022</div>
+			</div>
+			<div class="events">
+				<!-- / all the event will add dynamically -->
+			</div>
+			<div class="add-event-wrapper">
+				<div class="add-event-header">
+					<div class="title">Add Event</div>
+					<i class="fas fa-times close"></i>
+				</div>
+				<div class="add-event-body">
+					<div class="add-event-input">
+						<input type="text" placeholder="Event Name..." class="event-name">
+					</div>
+					<div class="add-event-input">
+						<input type="text" placeholder="Event Time From..." class="event-time-from">
+					</div>
+					<div class="add-event-input">
+						<input type="text" placeholder="Event Time To..." class="event-time-to">
+					</div>
+				</div>
+				<div class="add-event-footer">
+					<button class="add-event-btn">Add Event</button>
+				</div>
+			</div>
+			<div class="add-event">
+				<i class="fas fa-plus"></i>
+			</div>
+		</div>
+		<!-- custom Js codes -->
+		<script src="./script.js"></script>
+	</div>
+</body>
+
+</html>

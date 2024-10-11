@@ -1,39 +1,25 @@
 # CSS Custom Borders
 
-A project demonstrating how to create custom borders using **HTML**, **CSS**, and **JavaScript**. This project allows you to apply different border styles, widths, and colors to elements, giving you creative control over your web design.
-
-## Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Technologies](#technologies)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Customization](#customization)
-- [License](#license)
-
-## Overview
-
-In this project, we explore various ways to style borders using CSS. With the addition of JavaScript, you can dynamically change the border properties, creating interactive and customizable user interfaces.
+This project demonstrates how to create custom borders using **HTML**, **CSS**, and **JavaScript**. It allows users to dynamically generate and apply unique border styles to elements by tweaking CSS properties such as `border-style`, `border-width`, `border-color`, and more.
 
 ## Features
 
-- Customizable border width, color, and style
-- Multiple border types like solid, dashed, dotted, etc.
-- Dynamic border changes via JavaScript
-- Live preview of the border changes
+- **Customizable Borders**: Users can change border styles, widths, colors, and radius.
+- **Interactive UI**: Simple user interface with controls to update borders in real-time.
+- **Live Preview**: See border changes instantly on selected elements.
+- **Responsive Design**: Works on different screen sizes.
 
-## Technologies
+## Technologies Used
 
-This project uses the following technologies:
+- **HTML5**: For structuring the page.
+- **CSS3**: For styling and custom border designs.
+- **JavaScript**: For adding interactivity and handling user input.
 
-- **HTML5**: For structuring the content.
-- **CSS3**: For designing and styling the borders.
-- **JavaScript**: To add interactivity and allow real-time customization.
 
-## Installation
+css-custom-borders/
+│
+├── index.html          # Main HTML file
+├── styles.css          # CSS file for styling
+└── script.js           # JavaScript file for functionality
 
-1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/your-username/CSS-Custom-Borders.git
